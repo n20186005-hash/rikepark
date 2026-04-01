@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "title": "Rike Park Tbilisi - Tourism Guide",
+    "description": "Independent tourism guide to Rike Park (რიყის პარკი) in Tbilisi. Discover the Bridge of Peace, cable car, attractions, reviews, and tips for your visit."
+  },
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "guide": "Guide",
+    "map": "Map",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings"
+  },
+  "hero": {
+    "title": "Rike Park",
+    "subtitle": "The Heart of Tbilisi | Peace Bridge & Cable Car Hub",
+    "rating": "4.7/5",
+    "ratingCount": "(15,116 reviews)",
+    "openHours": "Open 24 hours",
+    "openMaps": "Open in Google Maps",
+    "keywords": [
+      "Peace Bridge",
+      "Cable Car",
+      "Riverfront Park",
+      "Photography",
+      "Family Friendly",
+      "Free Entry"
+    ]
+  },
+  "intro": {
+    "disclaimer": "This website is an independent third-party tourism information site, aiming to provide objective travel advice around Rike Park. Information is extracted from public resources (Georgian Tourism Board, Wikipedia, and traveler submissions), combined with basic data from Google Maps.",
+    "title": "Discover Rike Park",
+    "description": "Rike Park is Tbilisi's central riverside park, home to the iconic Peace Bridge and cable car station to Narikala Fortress. This 2010 Italian-designed urban renewal project offers 24/7 free access to locals and visitors seeking recreation, culture, and stunning city views.",
+    "highlights": [
+      "Start at the glass-and-steel Peace Bridge - Tbilisi's most photographed landmark",
+      "Take the cable car from the park to Narikala Fortress for panoramic city views",
+      "Enjoy musical fountains, art installations, and riverside walking paths",
+      "Perfect spot for sunset photography with the Old Town backdrop",
+      "Central location connects all major Tbilisi attractions within walking distance"
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "description": "Photos sourced from Unsplash, showcasing Rike Park's highlights. To view more photos, click the arrow to open the link to ",
+    "viewOriginal": "View Original",
+    "viewAllOnMaps": "View all on Google Maps",
+    "photos": [
+      {
+        "caption": "Peace Bridge illuminated at night with LED light show"
+      },
+      {
+        "caption": "Cable car station in Rike Park with fortress views"
+      },
+      {
+        "caption": "Musical fountain display during summer evenings"
+      },
+      {
+        "caption": "Art installations including the metal oak tree sculpture"
+      },
+      {
+        "caption": "Riverside promenade with Old Town views"
+      },
+      {
+        "caption": "Sunset views from the park overlooking Kura River"
+      },
+      {
+        "caption": "Family-friendly playground and recreational areas"
+      },
+      {
+        "caption": "Panoramic view connecting park to Narikala Fortress"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Real Visitor Reviews",
+    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only display a selection of verified high-scoring reviews. For all complete and most recent reviews, click the link below.",
+    "moreLink": "See more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "date": "March 2026",
+        "stars": 5,
+        "text": "The Peace Bridge is absolutely stunning at night! The LED lights create such a magical atmosphere. Perfect for evening walks."
+      },
+      {
+        "name": "David L.",
+        "date": "February 2026",
+        "stars": 5,
+        "text": "Great starting point for exploring Tbilisi. Took the cable car to the fortress - amazing views! The park itself is beautiful and well-maintained."
+      },
+      {
+        "name": "Anna K.",
+        "date": "January 2026",
+        "stars": 5,
+        "text": "Love the musical fountains! My kids had so much fun. The art installations are interesting and the whole area feels very safe and clean."
+      },
+      {
+        "name": "Marco R.",
+        "date": "December 2025",
+        "stars": 5,
+        "text": "Best spot in Tbilisi for photos! The bridge, the river, the old town in the background - everything comes together perfectly here."
+      },
+      {
+        "name": "Elena S.",
+        "date": "November 2025",
+        "stars": 5,
+        "text": "Beautiful park with excellent facilities. The cable car ride is a must-do! Great views and very reasonably priced."
+      },
+      {
+        "name": "James T.",
+        "date": "October 2025",
+        "stars": 5,
+        "text": "Perfect place to relax after exploring the Old Town. The riverside paths are lovely and there are plenty of cafes nearby."
+      },
+      {
+        "name": "Lisa W.",
+        "date": "September 2025",
+        "stars": 5,
+        "text": "The central location makes this park perfect for starting any Tbilisi adventure. Everything is within walking distance!"
+      },
+      {
+        "name": "Alex P.",
+        "date": "August 2025",
+        "stars": 5,
+        "text": "Amazing urban space! The combination of modern architecture, historical views, and green areas creates something truly special."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Visitor Guide",
+    "visitDuration": {
+      "title": "How long does a visit take?",
+      "text": "A visit typically takes 1-2 hours. This includes time to explore the park, walk across the Peace Bridge, and take the cable car to Narikala Fortress. Add extra time for photos and relaxation."
+    },
+    "worthIt": {
+      "title": "Is it worth visiting?",
+      "text": "Absolutely! Rike Park is the perfect starting point for any Tbilisi visit. It combines modern architecture, historical connections, recreational facilities, and serves as a hub to major attractions."
+    },
+    "whatInside": {
+      "title": "What to look out for?",
+      "items": [
+        "The iconic Peace Bridge with its 50,000 LED lights",
+        "Cable car station for easy access to Narikala Fortress",
+        "Musical fountains with evening light shows (summer)",
+        "Art installations including the 10-meter metal oak tree",
+        "Perfect photo spots with Old Town and river views"
+      ]
+    },
+    "tips": {
+      "title": "Practical Tips",
+      "items": [
+        "Best visited during sunset for the most spectacular photos",
+        "Evening visits offer the best Peace Bridge light shows",
+        "Cable car costs only 2-3 GEL (very affordable)",
+        "Free Wi-Fi available throughout the park",
+        "Safe for families with children and pets allowed"
+      ]
+    },
+    "comparison": {
+      "title": "Comparison with Nearby Attractions",
+      "headers": [
+        "Feature",
+        "Rike Park",
+        "Old Town",
+        "Mtatsminda Park"
+      ],
+      "rows": [
+        [
+          "Location",
+          "Kura River, Central",
+          "Historic Center",
+          "Mountaintop"
+        ],
+        [
+          "Main Attraction",
+          "Peace Bridge + Cable Car",
+          "Historical Architecture",
+          "Amusement Park + Views"
+        ],
+        [
+          "Best Time",
+          "Sunset/Evening",
+          "Daytime Exploration",
+          "Day/Night"
+        ],
+        [
+          "Entry Cost",
+          "Free",
+          "Free",
+          "Free (rides extra)"
+        ],
+        [
+          "Family Friendly",
+          "Yes (pets allowed)",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    }
+  },
+  "map": {
+    "title": "How to Get There",
+    "address": "MRR6+R66, Rike Park, Tbilisi, Georgia",
+    "openMaps": "Open in Google Maps"
+  },
+  "sources": {
+    "title": "Data and References",
+    "text": "This website is an independent third-party project for tourism information purposes. Information is sourced from public sources including Google Maps, local tourism authorities, and Wikipedia. Photos are sourced from Unsplash and Google Maps.",
+    "disclaimer": "We are not affiliated with the official administration of Rike Park or any other official body."
+  },
+  "footer": {
+    "support": "For technical support regarding this website, contact:",
+    "rights": "© 2026 Rike Park Guide · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "ka": "ქართული",
+    "en": "English",
+    "ru": "Русский",
+    "zh-hant": "繁體中文",
+    "zh-hans": "简体中文"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "This website collects minimal browsing data through technical cookies to ensure the site functions correctly. We do not collect personally identifiable data. For privacy enquiries, contact: N20186005@gmail.com",
+    "backToHome": "Back to Home"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": "This website provides tourism information for informational purposes. Information is gathered from public sources and may not always be up to date. Use of this website implies acceptance of these terms. For enquiries, contact: N20186005@gmail.com",
+    "backToHome": "Back to Home"
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "content": "This website only uses technical cookies necessary for the site to function and to remember your language and theme preferences. We do not use tracking or advertising cookies.",
+    "backToHome": "Back to Home"
+  },
+  "blogs": {
+    "title": "Travel Stories",
+    "items": [
+      {
+        "id": "peace-bridge-experience",
+        "title": "Peace Bridge: A Symbol of Modern Tbilisi",
+        "author": "@Traveler",
+        "excerpt": "The Peace Bridge is not just a crossing point - it's a masterpiece of contemporary architecture that has become the symbol of modern Tbilisi..."
+      },
+      {
+        "id": "cable-car-adventure",
+        "title": "Cable Car Journey to Narikala Fortress",
+        "author": "@Adventurer",
+        "excerpt": "Starting from Rike Park, the cable car offers breathtaking views as it climbs towards the ancient Narikala Fortress..."
+      }
+    ]
+  }
+}
