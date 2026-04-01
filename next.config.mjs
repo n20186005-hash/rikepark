@@ -4,6 +4,10 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Tell Next.js to look for app directory in src/
+  experimental: {
+    appDir: true,
+  },
   images: {
     remotePatterns: [
       {
