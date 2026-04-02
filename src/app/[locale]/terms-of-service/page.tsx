@@ -26,8 +26,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function TermsOfServicePage() {
-  const locale = useLocale();
+export default function TermsOfServicePage({ params }: { params: { locale: string } }) {
+  const { locale } = params;
 
   const content = {
     en: {

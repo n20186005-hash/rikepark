@@ -70,7 +70,7 @@ export default function Reviews() {
         {/* More reviews link */}
         <div className="mt-8 text-center">
           <a
-            href="https://maps.app.goo.gl/Q8VeC3SXTQesCfe48"
+            href="https://maps.app.goo.gl/Q7N3jVHbakHzUTaYA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium transition-colors"

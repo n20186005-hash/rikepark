@@ -26,8 +26,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function CookieSettingsPage() {
-  const locale = useLocale();
+export default function CookieSettingsPage({ params }: { params: { locale: string } }) {
+  const { locale } = params;
 
   // Client-side component for state management
   return <CookieSettingsClient locale={locale} />;

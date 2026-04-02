@@ -68,7 +68,7 @@ export default function Gallery() {
         <p className="mb-8 text-base" style={{ color: 'var(--text-secondary)' }}>
           {t('description')}
           <a
-            href="https://maps.app.goo.gl/Q8VeC3SXTQesCfe48"
+            href="https://maps.app.goo.gl/Q7N3jVHbakHzUTaYA"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline ml-1"
@@ -155,7 +155,7 @@ export default function Gallery() {
           
           {/* Link arrow to all images */}
           <a
-            href="https://maps.app.goo.gl/Q8VeC3SXTQesCfe48"
+            href="https://maps.app.goo.gl/Q7N3jVHbakHzUTaYA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors"

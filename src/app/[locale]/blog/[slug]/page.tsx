@@ -19,7 +19,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }) {
   const { locale, slug } = params;
   setRequestLocale(locale);
-  const baseUrl = 'https://www.chroniclesofgeorgia.com';
+  const baseUrl = 'https://www.rikepark.com';
   const path = `/blog/${slug}`;
 
   const alternateLanguages: Record<string, string> = {

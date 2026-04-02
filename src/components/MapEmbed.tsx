@@ -19,7 +19,7 @@ export default function MapEmbed() {
 
         <div className="map-container rounded-xl overflow-hidden" style={{ border: '1px solid var(--border-color)' }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.2748301293245!2d44.81012934869022!3d41.693002404478634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cfae6b42e2d%3A0x7113a448ec104f5b!2sRike%20Park!5e0!3m2!1sen!2sus!4v1775043325385!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2979.274830336763!2d44.8101293!3d41.6930024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cfae6b42e2d%3A0x7113a448ec104f5b!2sRike%20Park!5e0!3m2!1sen!2sus!4v1775102427634!5m2!1sen!2sus"
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -31,7 +31,7 @@ export default function MapEmbed() {
 
         <div className="mt-6 text-center">
           <a
-            href="https://maps.app.goo.gl/kiQSQyEsMRfZL4Vg7"
+            href="https://maps.app.goo.gl/Q7N3jVHbakHzUTaYA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium transition-colors"
