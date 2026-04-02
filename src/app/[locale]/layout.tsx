@@ -20,9 +20,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const messages = await getMessages({ locale });
   const meta = (messages as Record<string, Record<string, string>>).meta;
 
-  const baseUrl = 'https://www.chroniclesofgeorgia.com';
-  
-  // Base alternate languages for the home page (or base path)
+  const baseUrl = 'https://www.rikepark.com';
+
   const alternateLanguages: Record<string, string> = {
     'ka': `${baseUrl}/ka`,
     'en': `${baseUrl}/en`,
@@ -35,7 +34,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const canonicalUrl = locale === defaultLocale ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
-    title: meta?.title || 'Chronicles of Georgia',
+    title: meta?.title || 'Rike Park Guide',
     description: meta?.description || 'Independent tourism guide',
     metadataBase: new URL(baseUrl),
     alternates: {
@@ -74,7 +73,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <Header />
             <main>{children}</main>

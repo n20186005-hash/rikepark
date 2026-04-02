@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import { defaultLocale } from '@/i18n/config';
 
 export function CookieSettingsClient({ locale }: { locale: string }) {
   const [analyticsAccepted, setAnalyticsAccepted] = useState(true);
@@ -145,13 +146,14 @@ export function CookieSettingsClient({ locale }: { locale: string }) {
   };
 
   const currentContent = content[locale as keyof typeof content] || content.en;
+  const homeHref = locale === defaultLocale ? '/' : `/${locale}`;
 
   return (
     <div className="section-spacing min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
         <div className="mb-8">
           <Link 
-            href={`/${locale}`}
+            href={homeHref}
             className="inline-flex items-center gap-2 text-sm font-medium hover:opacity-80 transition-opacity"
             style={{ color: 'var(--accent)' }}
           >
