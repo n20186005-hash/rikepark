@@ -8,7 +8,6 @@ export default createMiddleware({
 });
 
 export const config = {
-  // Skip all paths that should not be internationalized.
-  // This avoids redirect loops for static files like robots.txt and sitemap.xml
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+  // Match only internationalized pathnames
+  matcher: ['/', '/(ka|en|ru|zh-hant|zh-hans)/:path*', '/((?!api|_next|_vercel|.*\\..*).*)']
 };
