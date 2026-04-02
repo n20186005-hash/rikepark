@@ -17,7 +17,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
   const meta = (messages as Record<string, Record<string, string>>).meta;
 
   const baseUrl = 'https://www.chroniclesofgeorgia.com';
@@ -60,7 +60,7 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale === 'zh-hant' ? 'zh-Hant' : locale} suppressHydrationWarning>

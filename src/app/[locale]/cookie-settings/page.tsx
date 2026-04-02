@@ -1,4 +1,3 @@
-import { useLocale } from 'next-intl';
 import { CookieSettingsClient } from './client';
 import { defaultLocale } from '@/i18n/config';
 

@@ -1,4 +1,3 @@
-import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
 
