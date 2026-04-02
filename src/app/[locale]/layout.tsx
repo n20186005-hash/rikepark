@@ -65,14 +65,8 @@ export default async function LocaleLayout({
     <html lang={locale === 'zh-hant' ? 'zh-Hant' : locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9279583389810634"
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <Header />
@@ -80,6 +74,12 @@ export default async function LocaleLayout({
             <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9279583389810634"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
