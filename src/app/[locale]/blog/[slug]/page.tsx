@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { locales, defaultLocale } from '@/i18n/config';
 
 export function generateStaticParams() {
-  const slugs = ['xiaotao', 'jack', 'lina', 'katya'];
+  const slugs = ['peace-bridge-experience', 'cable-car-adventure'];
   const params: { locale: string; slug: string }[] = [];
   
   locales.forEach((locale) => {
@@ -106,7 +106,7 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
           </header>
 
           <div className="space-y-6 text-[var(--text-secondary)] text-base md:text-lg leading-relaxed">
-            {blog.content.map((paragraph, idx) => (
+            {(blog.content || [blog.excerpt]).map((paragraph, idx) => (
               <p key={idx}>{paragraph}</p>
             ))}
           </div>
