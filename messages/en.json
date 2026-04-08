@@ -130,6 +130,41 @@
   },
   "guide": {
     "title": "Visitor Guide",
+    "recommendedTours": "Recommended Tours",
+    "tours": [
+      {
+        "url": "https://www.trip.com/t/pJoQPuLZDU2",
+        "title": "From Tbilisi: Mtskheta, Jvari, Gori and Uplistsikhe Day Tour"
+      },
+      {
+        "url": "https://www.trip.com/t/hIOsasWZDU2",
+        "title": "Tbilisi: Mtskheta Jvari, Chronicles of Georgia & Wine Tour"
+      },
+      {
+        "url": "https://www.trip.com/t/ZQ0oOYYZDU2",
+        "title": "Magic Kakheti Tour from Tbilisi – Sighnaghi, Bodbe & Chronicles"
+      },
+      {
+        "url": "https://www.trip.com/t/4UzsRFbZDU2",
+        "title": "Tbilisi: Gudauri & Kazbegi Day Tour (with 4WD)"
+      },
+      {
+        "url": "https://www.trip.com/t/ssPwvDdZDU2",
+        "title": "Tbilisi: Kakheti Region, Sighnaghi Tour with 9 Wine Tastings"
+      },
+      {
+        "url": "https://www.trip.com/t/7p32n1fZDU2",
+        "title": "Sighnaghi (City of Love) + Bodbe + Wine Tasting + Tbilisi Sea (Private)"
+      },
+      {
+        "url": "https://www.trip.com/t/8QotX3hZDU2",
+        "title": "Slow Tour of Tbilisi Sea: A Day Immersed in Blue Lakes and Clear Skies"
+      },
+      {
+        "url": "https://www.trip.com/t/sLLlgCjZDU2",
+        "title": "Tbilisi Aerial Tramway + Mother of Georgia + Rike Park + Tbilisi Sea"
+      }
+    ],
     "visitDuration": {
       "title": "How long does a visit take?",
       "text": "A visit typically takes 1-2 hours. This includes time to explore the park, walk across the Peace Bridge, and take the cable car to Narikala Fortress. Add extra time for photos and relaxation."
@@ -250,13 +285,65 @@
         "id": "peace-bridge-experience",
         "title": "Peace Bridge: A Symbol of Modern Tbilisi",
         "author": "@Traveler",
-        "excerpt": "The Peace Bridge is not just a crossing point - it's a masterpiece of contemporary architecture that has become the symbol of modern Tbilisi..."
+        "excerpt": "The Peace Bridge is not just a crossing point - it's a masterpiece of contemporary architecture that has become the symbol of modern Tbilisi...",
+        "content": [
+          "The Peace Bridge is not just a crossing point—it’s a masterpiece of contemporary architecture that has become the defining symbol of modern Tbilisi. Stretching gracefully over the Mtkvari (Kura) River, this bow-shaped pedestrian bridge links the historic heart of Old Tbilisi with the vibrant Rike Park, embodying the city’s journey from a storied past to a forward-looking future. Since its official opening on May 6, 2010, it has evolved from a bold urban project into an irreplaceable landmark, drawing locals and travelers alike to experience its design, symbolism, and panoramic views of Georgia’s capital.",
+          "Origins and Urban Vision",
+          "The Peace Bridge was conceived as a centerpiece of Tbilisi’s large-scale modernization initiative, commissioned by the Tbilisi City Hall to physically and symbolically connect two distinct halves of the city. Spanning approximately 156 meters, the structure was built to merge the narrow, cobblestone streets of the Old Town—rich with medieval churches, stone fortresses, and centuries of cultural heritage—with the contemporary open spaces of Rike Park on the left bank of the Mtkvari River. The project aimed to showcase harmony between tradition and innovation, positioning Tbilisi as a city that honors its history while embracing global modernity.",
+          "Construction took just over a year, with the steel framework assembled in Italy and transported to Tbilisi via nearly 200 trucks before final installation. The total cost reached around 12.5 million Georgian Lari (roughly 7.5 million US dollars), reflecting the city’s commitment to creating a world-class architectural icon. Upon completion, the bridge immediately transformed the city’s skyline, offering a new pedestrian corridor that improved accessibility while adding a striking visual anchor along the riverfront.",
+          "Architectural Design and Craftsmanship",
+          "Designed by renowned Italian architect Michele De Lucchi—also responsible for Tbilisi’s Ceremonial Palace and Ministry of Internal Affairs buildings—the Peace Bridge is a triumph of modern structural engineering and aesthetic elegance. Its sleek, curved silhouette evokes a gentle arc over the water, often compared to a seashell, a folded ribbon, or a bridge between civilizations, mirroring the flow of the Mtkvari River itself.",
+          "The bridge’s construction relies on a lightweight yet durable steel-and-glass system, featuring a curved steel tubular frame paired with transparent glass panels that create an airy, open feel. The glass railings run the full length of the walkway, allowing unobstructed views in every direction while maintaining a sense of lightness and transparency. This design choice symbolizes openness, connection, and the removal of barriers—both physical and metaphorical—between different eras, communities, and cultures.",
+          "Lighting design was crafted by French artist Philippe Martinaud, integrating more than 30,000 computer-controlled LED lights into the bridge’s canopy and railings. These lights transform the structure after dark, shifting through soft hues and dynamic patterns that turn the bridge into a glowing ribbon floating above the river. A particularly unique detail lies in the LED system: it transmits subtle Morse code messages representing the periodic table of elements, a quiet tribute to scientific progress, human knowledge, and universal unity.",
+          "Symbolism: Peace, Unity, and Renewal",
+          "True to its name, the Peace Bridge carries layered meaning that extends far beyond its function as a crossing. For Georgia, a nation with a complex modern history, the bridge stands as a powerful emblem of peace, reconciliation, and forward momentum. It represents the country’s aspiration for stability, dialogue, and harmonious relations both domestically and internationally.",
+          "Beyond peace, the bridge symbolizes unity—between old and new, East and West, tradition and modernity. On one side, walkers face the ancient Narikala Fortress, the historic Metekhi Church, and the equestrian statue of King Vakhtang Gorgasali, the legendary founder of Tbilisi. On the other, they see the contemporary lines of the Ceremonial Palace, the broad avenues of Rike Park, and the modern infrastructure of a European capital. In this way, every step across the bridge becomes a journey through time, connecting Tbilisi’s 1,500-year legacy to its present-day identity.",
+          "Initially, some residents viewed the futuristic structure with skepticism, nicknaming it the “glass alien” for its stark contrast against the ancient cityscape. Over time, however, the bridge won widespread affection. Today, it is embraced as a proud symbol of Tbilisi’s renewal—a visual statement that the city honors its roots while confidently stepping into the future.",
+          "Experience and Surroundings",
+          "A visit to the Peace Bridge offers a multi-sensory experience that changes dramatically from day to night. By day, the glass-and-steel structure shimmers in natural light, framing postcard-perfect views of Tbilisi’s layered skyline. The bridge provides an ideal vantage point for photography, with unobstructed vistas of the river, the Old Town’s terracotta rooftops, the imposing Narikala Fortress perched on the hillside, and the green slopes that surround the city.",
+          "The bridge is fully accessible, open 24 hours a day, and free to the public, making it a welcoming space for everyone—locals strolling at sunset, couples taking romantic walks, tourists capturing memories, and families enjoying relaxed outings. Its wide, barrier-free path ensures comfort and safety for pedestrians of all ages and abilities.",
+          "Adjacent to the bridge lies Rike Park, a modern recreational area featuring amphitheaters, playgrounds, musical fountains, public art installations such as giant pianos and chessboards, and the lower station of the cable car leading up to Narikala Fortress. Together, the bridge and park form a dynamic cultural hub where residents and visitors gather for events, festivals, and casual leisure, blending urban relaxation with architectural beauty.",
+          "At night, the Peace Bridge undergoes a magical transformation. Thousands of LEDs illuminate the structure, casting soft glows across the water and turning the walkway into an enchanting corridor of light. The gentle color shifts and hidden Morse code messages create a serene, almost otherworldly atmosphere, making evening crossings particularly memorable. Many visitors consider nighttime the best time to experience the bridge’s full splendor, as it glows like a jewel against the dark silhouette of the Old Town.",
+          "Cultural Legacy and Global Recognition",
+          "More than a decade after its opening, the Peace Bridge remains the most recognizable icon of modern Tbilisi. It appears prominently in travel guides, promotional materials, news coverage, and social media feeds, serving as the city’s global visual calling card. It has hosted public events, art installations, and celebrations, solidifying its role as a living cultural landmark rather than merely a static monument.",
+          "The bridge also represents Georgia’s broader narrative of post-Soviet transformation—a story of resilience, reform, and European integration. Its bold, contemporary design signals the country’s openness to international collaboration, creative innovation, and progressive values. For many, it is not just a bridge over a river; it is a bridge between histories, between cultures, and between a challenging past and a hopeful future.",
+          "Conclusion",
+          "The Peace Bridge is far more than a crossing over the Mtkvari River. It is a architectural masterpiece, a symbol of peace and unity, a connector of histories, and the beating heart of modern Tbilisi. Its elegant steel-and-glass form, innovative lighting, and powerful meaning combine to create an experience that resonates with everyone who walks its path. Whether admired in the bright daylight, when it frames the city’s ancient landmarks, or under the stars, when it glows softly above the water, the Peace Bridge stands as a timeless testament to Tbilisi’s spirit—a city where history and modernity walk hand in hand.",
+          "To cross the Peace Bridge is to feel the pulse of contemporary Georgia: proud of its past, open to the world, and optimistic about the future. It is, without doubt, an essential stop for anyone seeking to understand the soul of modern Tbilisi."
+        ]
       },
       {
         "id": "cable-car-adventure",
-        "title": "Cable Car Journey to Narikala Fortress",
+        "title": "Journey Through Millennia: Rike Park Cable Car and Narikala Fortress Adventure",
         "author": "@Adventurer",
-        "excerpt": "Starting from Rike Park, the cable car offers breathtaking views as it climbs towards the ancient Narikala Fortress..."
+        "excerpt": "Starting from Rike Park, the aerial cable car glides over the Mtkvari River, offering a breathtaking 360-degree panorama...",
+        "content": [
+          "Journey Through Millennia: Rike Park Cable Car and Narikala Fortress Adventure",
+          "Starting from Rike Park, the Tbilisi aerial cable car acts as a graceful silver thread cutting through the breeze above the Mtkvari River, slowly ascending to the millennium-old Narikala Fortress atop the mountain. This aerial journey, spanning about 600 meters and taking only around 2 minutes, is more than just convenient urban transportation—it is an immersive adventure connecting nature, history, and humanity. The moment passengers smoothly lift off, they fall into the unique charm of Tbilisi’s blend of ancient and modern. As a modern ropeway officially opened in 2012 and upgraded with new cabins in 2017, it has become a must-experience for tourists unlocking the soul of the Georgian capital, thanks to its safe, comfortable ride and 360-degree unobstructed panoramic views. It intimately connects Rike Park and Narikala Fortress, two major city landmarks, in the most romantic way.",
+          "Starting Point: Rike Park — Tbilisi's Modern Vibrant Living Room",
+          "The cable car journey begins at Rike Park on the left bank of the Mtkvari River. This is Tbilisi's most modern urban public space and the perfect prelude to the entire cable car adventure. The park is built along the river, where tree-lined walkways, dynamic musical fountains, a fun children's maze, and a giant chessboard sketch a cozy scene of locals' daily leisure. Strolling through it, you can see children running and playing on the lawn, and local residents sitting quietly by the river, enjoying the gentle gift of the Caucasus sun—a rich atmosphere of life rushing toward you.",
+          "As the starting station of the cable car, the lower station at Rike Park is designed with a simple and elegant style, perfectly blending with the surrounding modern architecture. The station is equipped with clear bilingual guide signs, convenient ticketing windows, and recharge devices. It supports the Metromoney transport card—tourists only need to spend 2 GEL to buy the card and 2.5 GEL for a one-way fare to start this aerial journey, making it both efficient and economical. While waiting for the cable car, you might want to look up into the distance: the streamlined steel structure of the Bridge of Peace shines brightly in the sun, contrasting wonderfully with the modern architecture of the Presidential Palace in the distance. This fully displays Tbilisi’s openness and vitality as a capital, creating a sharp temporal contrast with the millennium-old castle you are about to reach.",
+          "Ascent: A 2-Minute Aerial Roam Overlooking Tbilisi's Panoramic Scroll",
+          "As the door of the enclosed modern cable car slowly closes, a thrilling aerial roam officially begins. The entire cable car line is equipped with 7 cabins, each comfortably accommodating 8 passengers. The large transparent viewing windows and the glass floors in some cabins make passengers feel as if they are floating above the city, offering an unobstructed view of the scenery below. After the cable car starts, it climbs smoothly without any bumps, allowing both the elderly and children to safely immerse themselves in this visual feast.",
+          "As the altitude continues to rise, the urban texture of Tbilisi unfolds before your eyes like a slowly unrolling oil painting. Below, the Mtkvari River winds through the city like a green silk ribbon, its sparkling water reflecting the red-tiled roofs and mottled stone walls on both banks. On the left bank, the greenery of Rike Park, the modern light and shadows of the Peace Bridge, and the staggered streets of the Old Town intertwine. Traditional wine cellars, handicraft shops, and specialty restaurants are hidden within, and the air seems to carry the tempting aromas of classic Georgian foods like Khachapuri (cheese bread) and Khinkali (soup dumplings).",
+          "Looking into the distance, the landmarks of the whole city are in full view: the golden dome of the Holy Trinity Cathedral shines in the sun, solemn and sacred; the narrow streets of the Old Town crisscross like a maze, retaining their medieval architectural style. On a clear day, your line of sight can even cross the city to see the magnificent outlines of the snow-capped peaks of the Caucasus Mountains in the distance, adding a stunning natural backdrop to this aerial journey. The short 2-minute trip, though fleeting, allows one to collect multiple beautiful scenes of the river, modern city, millennium-old town, and snow-capped mountains all at once, becoming the most unforgettable memory fragment of a trip to Tbilisi.",
+          "Destination: Narikala Fortress — The City's Spiritual Totem Standing for a Millennium",
+          "The cable car arrives smoothly at the mountain-top station. The moment you step out of the cabin, the heavy sense of millennium-old history greets you. This is the spiritual symbol of Tbilisi—Narikala Fortress. This ancient fortress, originally built in the 4th century as a Persian Citadel and later expanded by the Arabs, has survived wars, earthquakes, and dynastic changes. Yet it has always stood atop the Sololaki ridge, guarding the city. Affectionately called the “Mother Fortress” by Georgians, it is one of Tbilisi’s oldest and most historically significant landmarks.",
+          "Strolling along the ancient stone paths of the fortress, your fingertips brushing against the mottled walls, every brick and stone is engraved with the marks of time. The fortress is divided into two main defense areas, and the walls have been repaired in different periods, featuring both original 4th-century cornerstones and later reinforced structures. Walking among them is like traveling through a thousand years of time, hearing the echoes of history. Standing on the observation deck of the fortress, the view of the whole city of Tbilisi is unobstructed: the red-tiled roofs of the Old Town, the winding posture of the Mtkvari River, and the high-rises of the modern urban area blend perfectly before your eyes. The unique beauty of this collision between ancient and modern is intoxicating.",
+          "A short walk from the cable car station brings you to the statue of the Mother of Georgia (Kartlis Deda) standing atop the mountain. This 20-meter-high statue holds a sword in one hand and a bowl of wine in the other, symbolizing the Georgian spirit of “warm hospitality to friends and resolute resistance to enemies.” It is the most awe-inspiring cultural landscape at the end of the cable car journey. Visitors can pause here to read the history of the fortress, admire the solemnity of the statue, and feel the resilience and passion of the city. Reserving at least 30 minutes is recommended to fully appreciate the unique charm of the mountain-top scenery.",
+          "Practical Guide: Unlocking the Perfect Cable Car Adventure Experience",
+          "Operations and Ticketing",
+          "Operating Hours: Daily from 10:00 to 22:00—midnight, adjusted according to season and passenger flow. Riding at night allows you to enjoy the city night view, with the blue hour (30 minutes to 1 hour after sunset) being the best time for viewing.",
+          "Ticketing: Supports on-site ticket purchase and Metromoney transport card swiping. The one-way fare is 2.5 GEL. The transport card can be purchased at the station window for 2 GEL. Passengers eligible for municipal transport discounts automatically receive exclusive discounts.",
+          "Cabin Selection: It is recommended to wait for a cabin marked “Max 5 persons,” which is equipped with a glass floor for a more thrilling aerial viewing experience.",
+          "Travel Suggestions",
+          "Itinerary Combination: Cable car round trip + fortress tour + statue check-in takes about 1-2 hours in total. For descending, you can choose the cable car return or hike down the stone steps, passing through the sulfur bath area to deeply explore the streets of the Old Town.",
+          "Best Time: Go early in the morning to avoid crowds and enjoy the quiet mountain scenery; climb to the top in the evening to encounter the sunset and city lights, taking in both beautiful views.",
+          "Surrounding Connections: After descending the mountain, you can stroll in Rike Park, watch the musical fountain, and check in at the Peace Bridge, experiencing the blend of modern and historical Tbilisi in one stop.",
+          "Conclusion: A Cable Car Connecting Tbilisi's Past and Present",
+          "From the modern vitality of Rike Park to the panoramic view of the city from the air, to the millennium-old depth of Narikala Fortress, this cable car journey strings together the natural beauty, historical rhythm, and cultural soul of Tbilisi in the lightest way. It is not just a transportation route, but a time-traveling adventure—allowing visitors to bid farewell to the city's hustle and bustle and touch the warmth of a thousand years of history at the moment of ascent; and to understand the unique temperament of this city's ancient and modern coexistence at the moment of overlooking.",
+          "Whether you are a travel enthusiast, a history seeker, or a romantic traveler, this cable car journey from Rike Park to Narikala Fortress will bring a unique experience. When the cable car slowly descends again, looking back at the ancient castle and statue on the top of the mountain, what remains in the heart is endless attachment and unforgettable memories of this ancient Caucasus city. This is the charm of the Tbilisi aerial cable car: in just 2 minutes, it grants you a city confession that spans a millennium."
+        ]
       }
     ]
   }

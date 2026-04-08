@@ -48,6 +48,7 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
   setRequestLocale(locale);
 
   const tBlogs = await getTranslations({ locale, namespace: 'blogs' });
+  const tGuide = await getTranslations({ locale, namespace: 'guide' });
   
   const blogsItems = tBlogs.raw('items') as Array<{
     id: string;
@@ -111,6 +112,25 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
             ))}
           </div>
         </article>
+
+        {/* Recommended Tours Section */}
+        <div className="mt-16 pt-8 border-t" style={{ borderColor: 'var(--border-color)' }}>
+          <h3 className="text-xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
+            {tGuide('recommendedTours')}
+          </h3>
+          
+          <div className="flex justify-center mb-8 overflow-hidden rounded-lg">
+            <iframe src="https://www.trip.com/partners/ad/SB15271426?Allianceid=7974128&SID=300882170&trip_sub1=" style={{width: "728px", height: "90px", border: "none", maxWidth: "100%"}} frameBorder="0" scrolling="no" id="SB15271426"></iframe>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4">
+            {(tGuide.raw('tours') as Array<{url: string, title: string}>).map((tour, idx) => (
+              <a key={idx} href={tour.url} target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
+                <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">{tour.title}</span>
+              </a>
+            ))}
+          </div>
+        </div>
 
         {/* Next/Prev simple navigation back to other blogs could go here, or just back home */}
         <div className="mt-16 pt-8 border-t border-[var(--border-color)]">

@@ -128,7 +128,7 @@ export default function Guide() {
         {/* Recommended Tours Section */}
         <div className="mb-16 pt-8 border-t" style={{ borderColor: 'var(--border-color)' }}>
           <h3 className="text-xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
-            Recommended Tours
+            {t('recommendedTours')}
           </h3>
           
           <div className="flex justify-center mb-8">
@@ -136,30 +136,11 @@ export default function Guide() {
           </div>
 
           <div className="grid grid-cols-1 gap-4">
-            <a href="https://www.trip.com/t/pJoQPuLZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">從第比利斯出發：姆茨赫塔、十字修道院、哥里及烏普利斯齊赫王朝一日遊</span>
-            </a>
-            <a href="https://www.trip.com/t/hIOsasWZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">第比利斯：姆茨赫塔十字市集、喬治亞紀事紀念碑及葡萄酒之旅</span>
-            </a>
-            <a href="https://www.trip.com/t/ZQ0oOYYZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">從第比利斯出發的魔法卡赫季之旅 – 西格納吉、博德貝與編年史之旅</span>
-            </a>
-            <a href="https://www.trip.com/t/4UzsRFbZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">第比利斯：古多里及卡茲貝吉一日遊（含四驅車）</span>
-            </a>
-            <a href="https://www.trip.com/t/ssPwvDdZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">第比利斯：卡赫季地區，西格納吉之旅連9次品酒體驗</span>
-            </a>
-            <a href="https://www.trip.com/t/7p32n1fZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">西格納吉（愛之城）+女修道院+紅酒體驗+第比利斯海（包車）</span>
-            </a>
-            <a href="https://www.trip.com/t/8QotX3hZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">慢遊第比利斯海：將日子浸在湖藍與晴空裡的一天【格魯吉亞】</span>
-            </a>
-            <a href="https://www.trip.com/t/sLLlgCjZDU2" target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
-              <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">第比利斯高架電車道+格魯吉亞之母雕像+里克公園+第比利斯海</span>
-            </a>
+            {(t.raw('tours') as Array<{url: string, title: string}>).map((tour, idx) => (
+              <a key={idx} href={tour.url} target="_blank" rel="noopener noreferrer" className="p-4 rounded-lg transition-colors hover:bg-black/5 dark:hover:bg-white/5" style={{ border: '1px solid var(--border-color)' }}>
+                <span className="text-[var(--text-primary)] hover:text-blue-500 font-medium">{tour.title}</span>
+              </a>
+            ))}
           </div>
         </div>
 
