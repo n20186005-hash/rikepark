@@ -34,7 +34,7 @@ export default function MapEmbed() {
             href="https://maps.app.goo.gl/Q7N3jVHbakHzUTaYA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium transition-colors mb-8"
             style={{
               background: 'var(--text-primary)',
               color: 'var(--bg-primary)',
@@ -46,6 +46,11 @@ export default function MapEmbed() {
             </svg>
             {t('openMaps')}
           </a>
+          
+          {/* Trip.com Hotel Ad */}
+          <div className="flex justify-center mt-4">
+            <iframe src="https://www.trip.com/partners/ad/SB15271076?Allianceid=7974128&SID=300882170&trip_sub1=%E7%AC%AC%E6%AF%94%E5%88%A9%E6%96%AF" style={{width: "728px", height: "90px", border: "none"}} frameBorder="0" scrolling="no" id="SB15271076"></iframe>
+          </div>
         </div>
       </div>
     </section>

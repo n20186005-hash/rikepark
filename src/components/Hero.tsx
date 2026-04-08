@@ -18,7 +18,12 @@ export default function Hero() {
       <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-6 max-w-4xl">
+      <div className="relative z-10 text-center text-white px-6 max-w-4xl mt-16">
+        {/* Trip.com Banner Ad */}
+        <div className="flex justify-center mb-8 animate-fade-in-up">
+          <iframe src="https://www.trip.com/partners/ad/SB15266995?Allianceid=7974128&SID=300882170&trip_sub1=%E7%BE%85%E8%A8%A5%E6%B2%B3%E5%8F%A3" style={{width: "728px", height: "90px", border: "none"}} frameBorder="0" scrolling="no" id="SB15266995"></iframe>
+        </div>
+
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 animate-fade-in-up">
           {t('title')}
         </h1>

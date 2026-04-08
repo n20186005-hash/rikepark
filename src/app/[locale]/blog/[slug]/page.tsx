@@ -115,14 +115,18 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
         {/* Next/Prev simple navigation back to other blogs could go here, or just back home */}
         <div className="mt-16 pt-8 border-t border-[var(--border-color)]">
           <Link 
-            href={`${prefix}/#guide`}
+            href={`${prefix}/blog`}
             className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-3 rounded-full text-sm font-medium transition-colors"
             style={{
               background: 'var(--text-primary)',
               color: 'var(--bg-primary)',
             }}
           >
-            {tBlogs('title')}
+            {locale === 'zh-hans' ? '查看更多博客文章' : 
+             locale === 'zh-hant' ? '查看更多博客文章' : 
+             locale === 'ka' ? 'მეტის ნახვა' :
+             locale === 'ru' ? 'Смотреть больше блогов' : 
+             'View More Blogs'}
           </Link>
         </div>
       </div>

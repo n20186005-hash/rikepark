@@ -175,6 +175,24 @@ export default function PrivacyPolicyPage({ params }: { params: { locale: string
               <p className="leading-relaxed">{section.text}</p>
             </div>
           ))}
+
+          {/* Trip.com Affiliate Disclaimer */}
+          <div className="mt-12 p-6 rounded-lg bg-black/5 dark:bg-white/5 border border-[var(--border-color)]">
+            <h2 className="text-lg font-semibold mb-3 text-[var(--text-primary)]">
+              {locale === 'zh-hans' ? '5. 广告与联盟声明' : 
+               locale === 'zh-hant' ? '5. 廣告與聯盟聲明' : 
+               locale === 'ka' ? '5. სარეკლამო და აფილირებული განცხადება' :
+               locale === 'ru' ? '5. Реклама и партнерское заявление' : 
+               '5. Advertising & Affiliate Disclaimer'}
+            </h2>
+            <p className="text-sm leading-relaxed">
+              {locale === 'zh-hans' ? '本网站包含由 Trip.com 提供的关联链接和广告。当您点击这些链接并进行预订时，我们可能会获得少量佣金，这不会给您带来任何额外费用。这有助于我们维持本网站的运营。我们不收集或存储任何与您在 Trip.com 上的预订相关的个人或支付信息。' : 
+               locale === 'zh-hant' ? '本網站包含由 Trip.com 提供的聯盟連結和廣告。當您點擊這些連結並進行預訂時，我們可能會獲得少量佣金，這不會給您帶來任何額外費用。這有助於我們維持本網站的運營。我們不收集或存儲任何與您在 Trip.com 上的預訂相關的個人或支付資訊。' : 
+               locale === 'ka' ? 'ეს ვებსაიტი შეიცავს აფილირებულ ბმულებს და რეკლამებს Trip.com-დან. როდესაც დააწკაპუნებთ ამ ბმულებზე და განახორციელებთ ჯავშანს, ჩვენ შეიძლება მივიღოთ მცირე საკომისიო, რაც თქვენთვის არავითარ დამატებით ხარჯს არ წარმოადგენს. ეს გვეხმარება საიტის ფუნქციონირებაში. ჩვენ არ ვაგროვებთ ან ვინახავთ რაიმე პირად ან გადახდის ინფორმაციას, რომელიც დაკავშირებულია თქვენს ჯავშნებთან Trip.com-ზე.' :
+               locale === 'ru' ? 'Этот веб-сайт содержит партнерские ссылки и рекламу от Trip.com. Когда вы переходите по этим ссылкам и совершаете бронирование, мы можем получить небольшую комиссию без каких-либо дополнительных затрат для вас. Это помогает нам поддерживать работу сайта. Мы не собираем и не храним личную или платежную информацию, связанную с вашими бронированиями на Trip.com.' : 
+               'This website contains affiliate links and advertisements provided by Trip.com. When you click on these links and make a booking, we may earn a small commission at no additional cost to you. This helps us maintain the operation of this website. We do not collect or store any personal or payment information related to your bookings on Trip.com.'}
+            </p>
+          </div>
         </div>
       </div>
     </main>
