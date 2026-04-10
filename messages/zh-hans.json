@@ -133,36 +133,44 @@
     "recommendedTours": "推荐路线",
     "tours": [
       {
-        "url": "https://www.trip.com/t/pJoQPuLZDU2",
-        "title": "从第比利斯出发：姆茨赫塔、十字修道院、哥里及乌普利斯齐赫王朝一日游"
+        "url": "https://www.trip.com/t/0wKcorr7FU2",
+        "title": "第比利斯：历史城市导赏步行团"
       },
       {
-        "url": "https://www.trip.com/t/hIOsasWZDU2",
-        "title": "第比利斯：姆茨赫塔十字市集、乔治亚纪事纪念碑及葡萄酒之旅"
+        "url": "https://www.trip.com/t/aF8qkDs7FU2",
+        "title": "第比利斯探索之旅：初访者必备步行导览"
       },
       {
-        "url": "https://www.trip.com/t/ZQ0oOYYZDU2",
-        "title": "从第比利斯出发的魔法卡赫季之旅 – 西格纳吉、博德贝与编年史之旅"
+        "url": "https://www.trip.com/t/F1EMrWs7FU2",
+        "title": "高加索【格鲁吉亚包车一日游】第比利斯邂逅童话与黄昏的浪漫旅程"
       },
       {
-        "url": "https://www.trip.com/t/4UzsRFbZDU2",
-        "title": "第比利斯：古多里及卡兹贝吉一日游（含四驱车）"
-      },
-      {
-        "url": "https://www.trip.com/t/ssPwvDdZDU2",
-        "title": "第比利斯：卡赫季地区，西格纳吉之旅连9次品酒体验"
-      },
-      {
-        "url": "https://www.trip.com/t/7p32n1fZDU2",
-        "title": "西格纳吉（爱之城）+女修道院+红酒体验+第比利斯海（包车）"
-      },
-      {
-        "url": "https://www.trip.com/t/8QotX3hZDU2",
-        "title": "慢游第比利斯海：将日子浸在湖蓝与晴空里的一天【格鲁吉亚】"
-      },
-      {
-        "url": "https://www.trip.com/t/sLLlgCjZDU2",
+        "url": "https://www.trip.com/t/Kjx4Qvs7FU2",
         "title": "第比利斯高架电车道+格鲁吉亚之母雕像+里克公园+第比利斯海"
+      },
+      {
+        "url": "https://www.trip.com/t/c3gjAKt7FU2",
+        "title": "第比利斯高架电车道+格鲁吉亚之母雕像+里克公园包车一日"
+      },
+      {
+        "url": "https://www.trip.com/t/9p4iPht7FU2",
+        "title": "第比利斯市区citywalk中/英文地陪 包车 行程可调"
+      },
+      {
+        "url": "https://www.trip.com/t/ki2Zi6u7FU2",
+        "title": "第比利斯高架电车道+华凌公园+里克公园+第比利斯海包车一日"
+      },
+      {
+        "url": "https://www.trip.com/t/xJF6XRu7FU2",
+        "title": "母亲堡垒+第比利斯锡安大教堂+里克公园包车"
+      },
+      {
+        "url": "https://www.trip.com/t/RS151nu7FU2",
+        "title": "女王宫殿+欧洲广场+柏林围墙纪念片段+奥尔贝公园+里克公园"
+      },
+      {
+        "url": "https://www.trip.com/t/yU5qj9v7FU2",
+        "title": "梅特希教堂+戈尔加萨利国王雕像+缆车+里克音乐厅+里克公园"
       }
     ],
     "visitDuration": {

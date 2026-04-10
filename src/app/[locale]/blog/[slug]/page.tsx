@@ -92,6 +92,9 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
         </Link>
         
         <article>
+          <div className="flex justify-center mb-8 overflow-hidden rounded-lg">
+            <iframe src="https://www.trip.com/partners/ad/SB15266995?Allianceid=7974128&SID=300882170&trip_sub1=%E7%BE%85%E8%A8%A5%E6%B2%B3%E5%8F%A3" style={{width: "728px", height: "90px", border: "none", maxWidth: "100%"}} frameBorder="0" scrolling="no" id="SB15266995"></iframe>
+          </div>
           <header className="mb-12">
             <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-[var(--text-primary)]">
               {blog.title}
@@ -120,7 +123,7 @@ export default async function BlogPage({ params }: { params: { slug: string, loc
           </h3>
           
           <div className="flex justify-center mb-8 overflow-hidden rounded-lg">
-            <iframe src="https://www.trip.com/partners/ad/SB15271426?Allianceid=7974128&SID=300882170&trip_sub1=" style={{width: "728px", height: "90px", border: "none", maxWidth: "100%"}} frameBorder="0" scrolling="no" id="SB15271426"></iframe>
+            <iframe src="https://www.trip.com/partners/ad/SB15353074?Allianceid=7974128&SID=300882170&trip_sub1=" style={{width: "728px", height: "90px", border: "none", maxWidth: "100%"}} frameBorder="0" scrolling="no" id="SB15353074"></iframe>
           </div>
 
           <div className="grid grid-cols-1 gap-4">

@@ -132,7 +132,7 @@ export default function Guide() {
           </h3>
           
           <div className="flex justify-center mb-8">
-            <iframe src="https://www.trip.com/partners/ad/SB15271426?Allianceid=7974128&SID=300882170&trip_sub1=" style={{width: "728px", height: "90px", border: "none"}} frameBorder="0" scrolling="no" id="SB15271426"></iframe>
+            <iframe src="https://www.trip.com/partners/ad/SB15353060?Allianceid=7974128&SID=300882170&trip_sub1=%E7%AC%AC%E6%AF%94%E5%88%A9%E6%96%AF" style={{width: "728px", height: "90px", border: "none"}} frameBorder="0" scrolling="no" id="SB15353060"></iframe>
           </div>
 
           <div className="grid grid-cols-1 gap-4">

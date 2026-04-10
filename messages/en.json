@@ -133,36 +133,44 @@
     "recommendedTours": "Recommended Tours",
     "tours": [
       {
-        "url": "https://www.trip.com/t/pJoQPuLZDU2",
-        "title": "From Tbilisi: Mtskheta, Jvari, Gori and Uplistsikhe Day Tour"
+        "url": "https://www.trip.com/t/0wKcorr7FU2",
+        "title": "Tbilisi: Historical City Guided Walking Tour"
       },
       {
-        "url": "https://www.trip.com/t/hIOsasWZDU2",
-        "title": "Tbilisi: Mtskheta Jvari, Chronicles of Georgia & Wine Tour"
+        "url": "https://www.trip.com/t/aF8qkDs7FU2",
+        "title": "Tbilisi Exploration: Must-Do Walking Tour for First-Timers"
       },
       {
-        "url": "https://www.trip.com/t/ZQ0oOYYZDU2",
-        "title": "Magic Kakheti Tour from Tbilisi – Sighnaghi, Bodbe & Chronicles"
+        "url": "https://www.trip.com/t/F1EMrWs7FU2",
+        "title": "Caucasus [Georgia Private Day Tour] Tbilisi Romantic Journey of Fairy Tales and Twilight"
       },
       {
-        "url": "https://www.trip.com/t/4UzsRFbZDU2",
-        "title": "Tbilisi: Gudauri & Kazbegi Day Tour (with 4WD)"
+        "url": "https://www.trip.com/t/Kjx4Qvs7FU2",
+        "title": "Tbilisi Aerial Tramway + Mother of Georgia Statue + Rike Park + Tbilisi Sea"
       },
       {
-        "url": "https://www.trip.com/t/ssPwvDdZDU2",
-        "title": "Tbilisi: Kakheti Region, Sighnaghi Tour with 9 Wine Tastings"
+        "url": "https://www.trip.com/t/c3gjAKt7FU2",
+        "title": "Tbilisi Aerial Tramway + Mother of Georgia Statue + Rike Park Private Day Tour"
       },
       {
-        "url": "https://www.trip.com/t/7p32n1fZDU2",
-        "title": "Sighnaghi (City of Love) + Bodbe + Wine Tasting + Tbilisi Sea (Private)"
+        "url": "https://www.trip.com/t/9p4iPht7FU2",
+        "title": "Tbilisi City Walk with EN/CN Guide, Private Tour, Adjustable Itinerary"
       },
       {
-        "url": "https://www.trip.com/t/8QotX3hZDU2",
-        "title": "Slow Tour of Tbilisi Sea: A Day Immersed in Blue Lakes and Clear Skies"
+        "url": "https://www.trip.com/t/ki2Zi6u7FU2",
+        "title": "Tbilisi Aerial Tramway + Hualing Park + Rike Park + Tbilisi Sea Private Day Tour"
       },
       {
-        "url": "https://www.trip.com/t/sLLlgCjZDU2",
-        "title": "Tbilisi Aerial Tramway + Mother of Georgia + Rike Park + Tbilisi Sea"
+        "url": "https://www.trip.com/t/xJF6XRu7FU2",
+        "title": "Mother Fortress + Tbilisi Sioni Cathedral + Rike Park Private Tour"
+      },
+      {
+        "url": "https://www.trip.com/t/RS151nu7FU2",
+        "title": "Queen's Palace + Europe Square + Berlin Wall Memorial Fragment + Orbeliani Park + Rike Park"
+      },
+      {
+        "url": "https://www.trip.com/t/yU5qj9v7FU2",
+        "title": "Metekhi Church + King Gorgasali Statue + Cable Car + Rike Concert Hall + Rike Park"
       }
     ],
     "visitDuration": {
