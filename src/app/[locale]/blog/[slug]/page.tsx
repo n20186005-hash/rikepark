@@ -16,8 +16,8 @@ export function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: { params: { locale: string; slug: string } }) {
-  const { locale, slug } = params;
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale, slug } = await params;
   setRequestLocale(locale);
   const baseUrl = 'https://www.rikepark.com';
   const path = `/blog/${slug}`;
@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: { params: { locale: string; s
   };
 }
 
-export default async function BlogPage({ params }: { params: { slug: string, locale: string } }) {
-  const { slug, locale } = params;
+export default async function BlogPage({ params }: { params: Promise<{ slug: string, locale: string }> }) {
+  const { slug, locale } = await params;
   
   setRequestLocale(locale);
 

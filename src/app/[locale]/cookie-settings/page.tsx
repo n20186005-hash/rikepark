@@ -1,7 +1,8 @@
 import { CookieSettingsClient } from './client';
 import { defaultLocale } from '@/i18n/config';
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const baseUrl = 'https://www.rikepark.com';
   const path = '/cookie-settings';
 
@@ -25,8 +26,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function CookieSettingsPage({ params }: { params: { locale: string } }) {
-  const { locale } = params;
+export default async function CookieSettingsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
 
   // Client-side component for state management
   return <CookieSettingsClient locale={locale} />;

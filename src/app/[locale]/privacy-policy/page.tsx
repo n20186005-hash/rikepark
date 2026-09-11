@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const baseUrl = 'https://www.rikepark.com';
   const path = '/privacy-policy';
 
@@ -25,8 +26,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default function PrivacyPolicyPage({ params }: { params: { locale: string } }) {
-  const { locale } = params;
+export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
 
   const content = {
     en: {
