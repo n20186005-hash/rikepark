@@ -1,6 +1,8 @@
 'use client';
-import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
+import { defaultLocale } from '@/i18n/config';
 
 // Generate 14 photos
 const photos = Array.from({ length: 14 }, (_, i) => ({
@@ -10,7 +12,9 @@ const photos = Array.from({ length: 14 }, (_, i) => ({
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const locale = useLocale();
   const captions = t.raw('photos') as Array<{ caption: string }>;
+  const prefix = locale === defaultLocale ? '' : `/${locale}`;
 
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 6;
@@ -76,6 +80,20 @@ export default function Gallery() {
             Google Maps
           </a>
         </p>
+
+        <div className="mb-8">
+          <Link
+            href={`${prefix}/photos`}
+            className="inline-flex items-center gap-2 text-sm font-medium hover:underline"
+            style={{ color: 'var(--accent)' }}
+          >
+            {locale === 'zh-hans' ? '查看完整照片页' :
+             locale === 'zh-hant' ? '查看完整照片頁' :
+             locale === 'ka' ? 'ფოტოების სრულ გვერდზე გადასვლა' :
+             locale === 'ru' ? 'Открыть полную фотостраницу' :
+             'Open the full photos page'}
+          </Link>
+        </div>
 
         <div className="gallery-grid">
           {currentPhotos.map((photo, index) => {

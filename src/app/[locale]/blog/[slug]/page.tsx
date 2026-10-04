@@ -1,7 +1,9 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { locales, defaultLocale } from '@/i18n/config';
+import { defaultLocale, locales } from '@/i18n/config';
+import { getBlogArticle } from '@/lib/blog-content';
+import { buildAlternateLanguages, buildLocalizedUrl } from '@/lib/seo';
 
 export function generateStaticParams() {
   const slugs = ['peace-bridge-experience', 'cable-car-adventure'];
@@ -19,25 +21,19 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const baseUrl = 'https://www.rikepark.com';
   const path = `/blog/${slug}`;
+  const article = getBlogArticle(locale as 'en' | 'ka' | 'ru' | 'zh-hans' | 'zh-hant', slug);
 
-  const alternateLanguages: Record<string, string> = {
-    'ka': `${baseUrl}/ka${path}`,
-    'en': `${baseUrl}/en${path}`,
-    'ru': `${baseUrl}/ru${path}`,
-    'zh-Hant': `${baseUrl}/zh-hant${path}`,
-    'zh-Hans': `${baseUrl}/zh-hans${path}`,
-    'x-default': `${baseUrl}/en${path}`,
-  };
-
-  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
+  if (!article) {
+    return {};
+  }
 
   return {
-    title: `Tourist Check-in Notes - Chronicles of Georgia`,
+    title: article.seoTitle,
+    description: article.description,
     alternates: {
-      canonical: canonicalUrl,
-      languages: alternateLanguages,
+      canonical: buildLocalizedUrl(locale, path),
+      languages: buildAlternateLanguages(path),
     },
   };
 }
@@ -47,24 +43,69 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
   
   setRequestLocale(locale);
 
-  const tBlogs = await getTranslations({ locale, namespace: 'blogs' });
   const tGuide = await getTranslations({ locale, namespace: 'guide' });
-  
-  const blogsItems = tBlogs.raw('items') as Array<{
-    id: string;
-    title: string;
-    author: string;
-    excerpt: string;
-    content: string[];
-  }>;
-
-  const blog = blogsItems.find(b => b.id === slug);
+  const blog = getBlogArticle(locale as 'en' | 'ka' | 'ru' | 'zh-hans' | 'zh-hant', slug);
 
   if (!blog) {
     notFound();
   }
 
   const prefix = locale === defaultLocale ? '' : `/${locale}`;
+  const articleUrl = buildLocalizedUrl(locale, `/blog/${slug}`);
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: blog.seoTitle,
+        description: blog.description,
+        author: {
+          '@type': 'Organization',
+          name: 'Rike Park Guide'
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Rike Park Guide'
+        },
+        mainEntityOfPage: articleUrl,
+        url: articleUrl
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: blog.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer
+          }
+        }))
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Rike Park',
+            item: buildLocalizedUrl(locale)
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: locale === 'ka' ? 'ბლოგი' : locale === 'ru' ? 'Блог' : locale.startsWith('zh') ? '博客' : 'Blog',
+            item: buildLocalizedUrl(locale, '/blog')
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: blog.title,
+            item: articleUrl
+          }
+        ]
+      }
+    ]
+  };
 
   // Get back home text from privacy policy translation for simplicity, 
   // or define a local one:
@@ -79,6 +120,10 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
 
   return (
     <main className="min-h-screen bg-[var(--bg-primary)] pt-24 pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-3xl mx-auto px-6">
         <Link 
           href={`${prefix}/`}
@@ -107,13 +152,74 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
                 {blog.author}
               </p>
             </div>
+            <p className="mt-6 text-base md:text-lg leading-relaxed text-[var(--text-secondary)]">
+              {blog.description}
+            </p>
           </header>
 
-          <div className="space-y-6 text-[var(--text-secondary)] text-base md:text-lg leading-relaxed">
-            {(blog.content || [blog.excerpt]).map((paragraph, idx) => (
+          <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+            {blog.facts.map((fact) => (
+              <div
+                key={fact.label}
+                className="p-4 rounded-xl"
+                style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
+              >
+                <p className="text-xs uppercase tracking-wide mb-2 text-[var(--text-muted)]">{fact.label}</p>
+                <p className="text-sm md:text-base text-[var(--text-primary)]">{fact.value}</p>
+              </div>
+            ))}
+          </section>
+
+          <div className="space-y-6 text-[var(--text-secondary)] text-base md:text-lg leading-relaxed mb-12">
+            {blog.intro.map((paragraph, idx) => (
               <p key={idx}>{paragraph}</p>
             ))}
           </div>
+
+          <div className="space-y-10">
+            {blog.sections.map((section) => (
+              <section key={section.heading}>
+                <h2 className="text-2xl font-semibold mb-4 text-[var(--text-primary)]">{section.heading}</h2>
+                <div className="space-y-4 text-[var(--text-secondary)] text-base md:text-lg leading-relaxed">
+                  {section.paragraphs.map((paragraph, idx) => (
+                    <p key={idx}>{paragraph}</p>
+                  ))}
+                </div>
+                {section.bullets && (
+                  <ul className="mt-5 space-y-3">
+                    {section.bullets.map((item) => (
+                      <li key={item} className="flex items-start gap-3 text-[var(--text-secondary)]">
+                        <span className="mt-2 w-2 h-2 rounded-full bg-[var(--accent)] flex-shrink-0" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            ))}
+          </div>
+
+          <section className="mt-14">
+            <h2 className="text-2xl font-semibold mb-6 text-[var(--text-primary)]">
+              {locale === 'zh-hans' ? '常见问题' :
+               locale === 'zh-hant' ? '常見問題' :
+               locale === 'ka' ? 'ხშირად დასმული კითხვები' :
+               locale === 'ru' ? 'Частые вопросы' :
+               'Frequently Asked Questions'}
+            </h2>
+            <div className="space-y-4">
+              {blog.faqs.map((faq) => (
+                <div
+                  key={faq.question}
+                  className="p-5 rounded-xl"
+                  style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
+                >
+                  <h3 className="text-lg font-semibold mb-2 text-[var(--text-primary)]">{faq.question}</h3>
+                  <p className="text-[var(--text-secondary)] leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
         </article>
 
         {/* Recommended Tours Section */}

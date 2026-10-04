@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "რიყის პარკი თბილისი - ტურისტული გზამკვლევი",
-    "description": "დამოუკიდებელი ტურისტული გზამკვლევი რიყის პარკში (Rike Park) თბილისში. აღმოაჩინეთ მშვიდობის ხიდი, კაბელური გზა, ღირსშესანიშნაობები, მიმოხილვები და რჩევები თქვენი ვიზიტისთვის."
+    "title": "რიყის პარკი თბილისი - საბაგირო, მშვიდობის ხიდი და გზამკვლევი",
+    "description": "ეწვიეთ რიყის პარკს თბილისში, საქართველოში. დაათვალიერეთ მშვიდობის ხიდი, რიყე-ნარიყალას საბაგირო, ფოტოები, რუკა და პრაქტიკული რჩევები."
   },
   "nav": {
     "home": "მთავარი",
@@ -17,7 +17,7 @@
     "title": "რიყის პარკი",
     "subtitle": "თბილისის გული | მშვიდობის ხიდი და კაბელური გზა",
     "rating": "4.7/5",
-    "ratingCount": "(15,116 მიმოხილვა)",
+    "ratingCount": "(15,801 მიმოხილვა)",
     "openHours": "ღიაა 24 საათი",
     "openMaps": "Google Maps-ში გახსნა",
     "keywords": [
@@ -74,57 +74,57 @@
     ]
   },
   "reviews": {
-    "title": "Real Visitor Reviews",
-    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only display a selection of verified high-scoring reviews. For all complete and most recent reviews, click the link below.",
-    "moreLink": "See more reviews on Google Maps",
+    "title": "ვიზიტორთა გამოხმაურების შეჯამება",
+    "declaration": "ვიზიტორთა გამოხმაურების მოკლე შეჯამება, რომელიც ეფუძნება საჯარო Google Maps-ის შეფასებებსა და მიმოხილვებს (განახლებულია 2026 წელს). უახლესი სრული ნაკადისთვის გამოიყენეთ ოფიციალური Google Maps ბმული ქვემოთ.",
+    "moreLink": "იხილეთ მეტი გამოხმაურება Google Maps-ზე",
     "items": [
       {
         "name": "Sarah M.",
-        "date": "March 2026",
+        "date": "მარტი 2026",
         "stars": 5,
-        "text": "The Peace Bridge is absolutely stunning at night! The LED lights create such a magical atmosphere. Perfect for evening walks."
+        "text": "მშვიდობის ხიდი ღამით მართლაც შთამბეჭდავია. განათება ძალიან ლამაზ ატმოსფეროს ქმნის და საღამოს გასეირნებისთვის იდეალურია."
       },
       {
         "name": "David L.",
-        "date": "February 2026",
+        "date": "თებერვალი 2026",
         "stars": 5,
-        "text": "Great starting point for exploring Tbilisi. Took the cable car to the fortress - amazing views! The park itself is beautiful and well-maintained."
+        "text": "თბილისის დასათვალიერებლად ძალიან კარგი საწყისი წერტილია. საბაგიროთი ავედი ციხემდე და ხედები საოცარი იყო. თავად პარკიც მოვლილი და სასიამოვნოა."
       },
       {
         "name": "Anna K.",
-        "date": "January 2026",
+        "date": "იანვარი 2026",
         "stars": 5,
-        "text": "Love the musical fountains! My kids had so much fun. The art installations are interesting and the whole area feels very safe and clean."
+        "text": "მუსიკალური შადრევნები ძალიან მოგვეწონა. ბავშვებმა მშვენივრად გაერთეს, გარემო კი სუფთა და უსაფრთხო ჩანდა."
       },
       {
         "name": "Marco R.",
-        "date": "December 2025",
+        "date": "დეკემბერი 2025",
         "stars": 5,
-        "text": "Best spot in Tbilisi for photos! The bridge, the river, the old town in the background - everything comes together perfectly here."
+        "text": "ფოტოებისთვის ერთ-ერთი საუკეთესო ადგილია თბილისში. ხიდი, მდინარე და ძველი ქალაქის ფონი ძალიან კარგად ერწყმის ერთმანეთს."
       },
       {
         "name": "Elena S.",
-        "date": "November 2025",
+        "date": "ნოემბერი 2025",
         "stars": 5,
-        "text": "Beautiful park with excellent facilities. The cable car ride is a must-do! Great views and very reasonably priced."
+        "text": "ლამაზი პარკია კარგი ინფრასტრუქტურით. საბაგირო აუცილებლად სცადეთ - ხედები შესანიშნავია და ფასიც მისაღებია."
       },
       {
         "name": "James T.",
-        "date": "October 2025",
+        "date": "ოქტომბერი 2025",
         "stars": 5,
-        "text": "Perfect place to relax after exploring the Old Town. The riverside paths are lovely and there are plenty of cafes nearby."
+        "text": "ძველი ქალაქის შემდეგ დასასვენებლად შესანიშნავი ადგილია. ნაპირსავალი სასიამოვნოა და ახლოს ბევრი კაფეც არის."
       },
       {
         "name": "Lisa W.",
-        "date": "September 2025",
+        "date": "სექტემბერი 2025",
         "stars": 5,
-        "text": "The central location makes this park perfect for starting any Tbilisi adventure. Everything is within walking distance!"
+        "text": "ცენტრალური მდებარეობის გამო ეს პარკი კარგი ადგილია თბილისში ნებისმიერი დღის დასაწყებად. ბევრი მნიშვნელოვანი ადგილი ფეხით მისადგომია."
       },
       {
         "name": "Alex P.",
-        "date": "August 2025",
+        "date": "აგვისტო 2025",
         "stars": 5,
-        "text": "Amazing urban space! The combination of modern architecture, historical views, and green areas creates something truly special."
+        "text": "ძალიან შთამბეჭდავი ურბანული სივრცეა. თანამედროვე არქიტექტურის, ისტორიული ხედებისა და მწვანე ზონების შერწყმა განსაკუთრებულ განცდას ქმნის."
       }
     ]
   },
@@ -166,91 +166,91 @@
       }
     ],
     "visitDuration": {
-      "title": "How long does a visit take?",
-      "text": "A visit typically takes 1-2 hours. This includes time to explore the park, walk across the Peace Bridge, and take the cable car to Narikala Fortress. Add extra time for photos and relaxation."
+      "title": "რამდენ ხანს გრძელდება ვიზიტი?",
+      "text": "ვიზიტს ჩვეულებრივ 1-2 საათი სჭირდება. ამ დროში შეგიძლიათ გაისეირნოთ პარკში, გადახვიდეთ მშვიდობის ხიდზე და საბაგიროთი ახვიდეთ ნარიყალასკენ. ფოტოებისა და დასვენებისთვის დამატებითი დრო გაითვალისწინეთ."
     },
     "worthIt": {
-      "title": "Is it worth visiting?",
-      "text": "Absolutely! Rike Park is the perfect starting point for any Tbilisi visit. It combines modern architecture, historical connections, recreational facilities, and serves as a hub to major attractions."
+      "title": "ღირს თუ არა სტუმრობა?",
+      "text": "დიახ. რიყის პარკი ერთ-ერთი საუკეთესო საწყისი წერტილია თბილისში გასეირნებისთვის, რადგან აერთიანებს თანამედროვე არქიტექტურას, ისტორიულ გარემოს, რეკრეაციულ სივრცეს და კავშირს მთავარ ღირსშესანიშნაობებთან."
     },
     "whatInside": {
-      "title": "What to look out for?",
+      "title": "რას მიაქციოთ ყურადღება?",
       "items": [
-        "The iconic Peace Bridge with its 50,000 LED lights",
-        "Cable car station for easy access to Narikala Fortress",
-        "Musical fountains with evening light shows (summer)",
-        "Art installations including the 10-meter metal oak tree",
-        "Perfect photo spots with Old Town and river views"
+        "მშვიდობის ხიდი და მისი ცნობილი განათება",
+        "საბაგიროს სადგური ნარიყალას მიმართულებით",
+        "მუსიკალური შადრევნები და საღამოს შოუები სეზონის დროს",
+        "ღია სივრცეები, ინსტალაციები და სასეირნო ბილიკები",
+        "ფოტო წერტილები ძველი ქალაქისა და მდინარის ხედებით"
       ]
     },
     "tips": {
-      "title": "Practical Tips",
+      "title": "პრაქტიკული რჩევები",
       "items": [
-        "Best visited during sunset for the most spectacular photos",
-        "Evening visits offer the best Peace Bridge light shows",
-        "Cable car costs only 2-3 GEL (very affordable)",
-        "Free Wi-Fi available throughout the park",
-        "Safe for families with children and pets allowed"
+        "ფოტოებისთვის საუკეთესო დრო არის მზის ჩასვლა და ადრეული საღამო",
+        "ღამით მშვიდობის ხიდის განათება განსაკუთრებით ლამაზია",
+        "საბაგიროს ფასი და საათები წინასწარ გადაამოწმეთ ადგილზე",
+        "პარკი მოსახერხებელია ოჯახებისთვის და მშვიდი სეირნობისთვის",
+        "რიყიდან მარტივად შეგიძლიათ ფეხით გადახვიდეთ ძველ თბილისში"
       ]
     },
     "comparison": {
-      "title": "Comparison with Nearby Attractions",
+      "title": "შედარება ახლომდებარე ღირსშესანიშნაობებთან",
       "headers": [
-        "Feature",
-        "Rike Park",
-        "Old Town",
-        "Mtatsminda Park"
+        "მახასიათებელი",
+        "რიყის პარკი",
+        "ძველი თბილისი",
+        "მთაწმინდის პარკი"
       ],
       "rows": [
         [
-          "Location",
-          "Kura River, Central",
-          "Historic Center",
-          "Mountaintop"
+          "მდებარეობა",
+          "მტკვრის სანაპირო, ცენტრი",
+          "ისტორიული ცენტრი",
+          "მთის წვერი"
         ],
         [
-          "Main Attraction",
-          "Peace Bridge + Cable Car",
-          "Historical Architecture",
-          "Amusement Park + Views"
+          "მთავარი აქცენტი",
+          "მშვიდობის ხიდი და საბაგირო",
+          "ისტორიული არქიტექტურა",
+          "ატრაქციონები და ხედები"
         ],
         [
-          "Best Time",
-          "Sunset/Evening",
-          "Daytime Exploration",
-          "Day/Night"
+          "საუკეთესო დრო",
+          "მზის ჩასვლა და საღამო",
+          "დღის გასეირნება",
+          "დღე და ღამე"
         ],
         [
-          "Entry Cost",
-          "Free",
-          "Free",
-          "Free (rides extra)"
+          "შესვლის ღირებულება",
+          "უფასო",
+          "უფასო",
+          "უფასო, ატრაქციონები ცალკე"
         ],
         [
-          "Family Friendly",
-          "Yes (pets allowed)",
-          "Yes",
-          "Yes"
+          "ოჯახებისთვის",
+          "დიახ",
+          "დიახ",
+          "დიახ"
         ]
       ]
     }
   },
   "map": {
-    "title": "How to Get There",
-    "address": "MRR6+R66, Rike Park, Tbilisi, Georgia",
-    "openMaps": "Open in Google Maps"
+    "title": "როგორ მივიდეთ",
+    "address": "MRV6+63X, თბილისი, საქართველო",
+    "openMaps": "Google Maps-ში გახსნა"
   },
   "sources": {
-    "title": "Data and References",
-    "text": "This website is an independent third-party project for tourism information purposes. Information is sourced from public sources including Google Maps, local tourism authorities, and Wikipedia. Photos are sourced from Unsplash and Google Maps.",
-    "disclaimer": "We are not affiliated with the official administration of Rike Park or any other official body."
+    "title": "მონაცემები და წყაროები",
+    "text": "ეს ვებსაიტი არის დამოუკიდებელი ტურისტული საინფორმაციო პროექტი. ინფორმაცია დაყრდნობილია საჯარო წყაროებზე, მათ შორის Google Maps-ზე, ადგილობრივ ტურისტულ რესურსებზე და ენციკლოპედიურ მასალებზე. ფოტოები გამოიყენება საიტის ილუსტრაციის მიზნით.",
+    "disclaimer": "ჩვენ არ ვართ დაკავშირებული რიყის პარკის ოფიციალურ ადმინისტრაციასთან ან სხვა ოფიციალურ უწყებასთან."
   },
   "footer": {
-    "support": "For technical support regarding this website, contact:",
-    "rights": "© 2026 Rike Park Guide · All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Settings"
+    "support": "ვებსაიტის ტექნიკური მხარდაჭერისთვის დაგვიკავშირდით:",
+    "rights": "© 2026 გზამკვლევი რიყის პარკზე · ყველა უფლება დაცულია.",
+    "privacy": "კონფიდენციალურობის პოლიტიკა",
+    "terms": "მომსახურების პირობები",
+    "cookies": "ქუქი-ფაილების პარამეტრები"
   },
   "theme": {
     "light": "Light mode",
@@ -279,13 +279,13 @@
     "backToHome": "Back to Home"
   },
   "blogs": {
-    "title": "Travel Stories",
+    "title": "სტატიები და გზამკვლევები",
     "items": [
       {
         "id": "peace-bridge-experience",
-        "title": "მშვიდობის ხიდი: თანამედროვე თბილისის სიმბოლო",
+        "title": "მშვიდობის ხიდი თბილისში: ისტორია, მნიშვნელობა და ფოტოები",
         "author": "@Traveler",
-        "excerpt": "The Peace Bridge is not just a crossing point - it's a masterpiece of contemporary architecture that has become the symbol of modern Tbilisi...",
+        "excerpt": "გაიგეთ რას ნიშნავს მშვიდობის ხიდი, როდის არის საუკეთესო დრო მის სანახავად და საიდან გადაიღებთ საუკეთესო ფოტოებს რიყის პარკთან ერთად.",
         "content": [
           "The Peace Bridge is not just a crossing point—it’s a masterpiece of contemporary architecture that has become the defining symbol of modern Tbilisi. Stretching gracefully over the Mtkvari (Kura) River, this bow-shaped pedestrian bridge links the historic heart of Old Tbilisi with the vibrant Rike Park, embodying the city’s journey from a storied past to a forward-looking future. Since its official opening on May 6, 2010, it has evolved from a bold urban project into an irreplaceable landmark, drawing locals and travelers alike to experience its design, symbolism, and panoramic views of Georgia’s capital.",
           "Origins and Urban Vision",
@@ -314,9 +314,9 @@
       },
       {
         "id": "cable-car-adventure",
-        "title": "მოგზაურობა ათასწლეულებში: რიყის პარკის საბაგირო და ნარიყალას ციხესიმაგრე",
+        "title": "რიყის პარკის საბაგირო ნარიყალაზე: ბილეთები, საათები და გზამკვლევი",
         "author": "@Adventurer",
-        "excerpt": "Starting from Rike Park, the aerial cable car glides over the Mtkvari River, offering a breathtaking 360-degree panorama...",
+        "excerpt": "დაგეგმეთ საბაგიროთი მგზავრობა რიყიდან ნარიყალამდე: მარშრუტი, ფასი, საათები, ხედები და პრაქტიკული რჩევები ერთ გვერდზე.",
         "content": [
           "The Peace Bridge is not just a crossing point—it’s a masterpiece of contemporary architecture that has become the defining symbol of modern Tbilisi. Stretching gracefully over the Mtkvari (Kura) River, this bow-shaped pedestrian bridge links the historic heart of Old Tbilisi with the vibrant Rike Park, embodying the city’s journey from a storied past to a forward-looking future. Since its official opening on May 6, 2010, it has evolved from a bold urban project into an irreplaceable landmark, drawing locals and travelers alike to experience its design, symbolism, and panoramic views of Georgia’s capital.",
           "Origins and Urban Vision",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Парк Рике Тбилиси - Туристическое руководство",
-    "description": "Независимое туристическое руководство по парку Рике (Rike Park) в Тбилиси. Откройте для себя Мост Мира, канатную дорогу, достопримечательности, отзывы и советы для вашего визита."
+    "title": "Парк Рике в Тбилиси: канатная дорога, Мост Мира и гид",
+    "description": "Посетите парк Рике в Тбилиси, Грузия. Узнайте о Мосте Мира, канатной дороге Рике-Нарикала, фото-точках, карте и практических советах."
   },
   "nav": {
     "home": "Главная",
@@ -17,7 +17,7 @@
     "title": "Парк Рике",
     "subtitle": "Сердце Тбилиси | Мост Мира и канатная дорога",
     "rating": "4.7/5",
-    "ratingCount": "(15,116 отзывов)",
+    "ratingCount": "(15,801 отзывов)",
     "openHours": "Открыт 24 часа",
     "openMaps": "Открыть в Google Картах",
     "keywords": [
@@ -74,8 +74,8 @@
     ]
   },
   "reviews": {
-    "title": "Реальные отзывы посетителей",
-    "declaration": "Рейтинги и отзывы из Google Карт (последнее обновление: 2026). Мы показываем только отбор проверенных высокооцененных отзывов. Для просмотра всех полных и самых последних отзывов нажмите на ссылку ниже.",
+    "title": "Основные отзывы посетителей",
+    "declaration": "Краткая подборка впечатлений посетителей на основе публичных оценок и отзывов Google Карт (обновлено в 2026 году). Для полного и самого свежего потока отзывов используйте официальную страницу в Google Картах ниже.",
     "moreLink": "Посмотреть больше отзывов на Google Картах",
     "items": [
       {
@@ -237,7 +237,7 @@
   },
   "map": {
     "title": "Как добраться",
-    "address": "MRR6+R66, Парк Рике, Тбилиси, Грузия",
+    "address": "MRV6+63X, Тбилиси, Грузия",
     "openMaps": "Открыть в Google Картах"
   },
   "sources": {
@@ -279,13 +279,13 @@
     "backToHome": "Вернуться на главную"
   },
   "blogs": {
-    "title": "Истории путешествий",
+    "title": "Гиды и истории",
     "items": [
       {
         "id": "peace-bridge-experience",
-        "title": "Мост Мира: Символ современного Тбилиси",
+        "title": "Мост Мира в Тбилиси: история, смысл и лучшие фото-точки",
         "author": "@Traveler",
-        "excerpt": "The Peace Bridge is not just a crossing point - it's a masterpiece of contemporary architecture that has become the symbol of modern Tbilisi...",
+        "excerpt": "Узнайте, почему Мост Мира важен, когда лучше приходить и откуда получаются самые удачные фото рядом с парком Рике.",
         "content": [
           "The Peace Bridge is not just a crossing point—it’s a masterpiece of contemporary architecture that has become the defining symbol of modern Tbilisi. Stretching gracefully over the Mtkvari (Kura) River, this bow-shaped pedestrian bridge links the historic heart of Old Tbilisi with the vibrant Rike Park, embodying the city’s journey from a storied past to a forward-looking future. Since its official opening on May 6, 2010, it has evolved from a bold urban project into an irreplaceable landmark, drawing locals and travelers alike to experience its design, symbolism, and panoramic views of Georgia’s capital.",
           "Origins and Urban Vision",
@@ -314,9 +314,9 @@
       },
       {
         "id": "cable-car-adventure",
-        "title": "Путешествие сквозь тысячелетия: канатная дорога парка Рике и крепость Нарикала",
+        "title": "Канатная дорога из парка Рике к Нарикале: билеты, часы и гид",
         "author": "@Adventurer",
-        "excerpt": "Starting from Rike Park, the aerial cable car glides over the Mtkvari River, offering a breathtaking 360-degree panorama...",
+        "excerpt": "Спланируйте поездку на канатной дороге из парка Рике: маршрут, цена, часы работы, виды и самый простой путь к Нарикале.",
         "content": [
           "The Peace Bridge is not just a crossing point—it’s a masterpiece of contemporary architecture that has become the defining symbol of modern Tbilisi. Stretching gracefully over the Mtkvari (Kura) River, this bow-shaped pedestrian bridge links the historic heart of Old Tbilisi with the vibrant Rike Park, embodying the city’s journey from a storied past to a forward-looking future. Since its official opening on May 6, 2010, it has evolved from a bold urban project into an irreplaceable landmark, drawing locals and travelers alike to experience its design, symbolism, and panoramic views of Georgia’s capital.",
           "Origins and Urban Vision",

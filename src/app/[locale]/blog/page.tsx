@@ -1,29 +1,18 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
+import { buildAlternateLanguages, buildLocalizedUrl } from '@/lib/seo';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const baseUrl = 'https://www.rikepark.com';
   const path = '/blog';
-
-  const alternateLanguages: Record<string, string> = {
-    'ka': `${baseUrl}/ka${path}`,
-    'en': `${baseUrl}/en${path}`,
-    'ru': `${baseUrl}/ru${path}`,
-    'zh-Hant': `${baseUrl}/zh-hant${path}`,
-    'zh-Hans': `${baseUrl}/zh-hans${path}`,
-    'x-default': `${baseUrl}/en${path}`,
-  };
-
-  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
 
   return {
     title: 'Tourist Blogs - Rike Park Guide',
     alternates: {
-      canonical: canonicalUrl,
-      languages: alternateLanguages,
+      canonical: buildLocalizedUrl(locale, path),
+      languages: buildAlternateLanguages(path),
     },
   };
 }

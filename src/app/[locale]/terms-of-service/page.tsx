@@ -1,27 +1,16 @@
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
+import { buildAlternateLanguages, buildLocalizedUrl } from '@/lib/seo';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const baseUrl = 'https://www.rikepark.com';
   const path = '/terms-of-service';
-
-  const alternateLanguages: Record<string, string> = {
-    'ka': `${baseUrl}/ka${path}`,
-    'en': `${baseUrl}/en${path}`,
-    'ru': `${baseUrl}/ru${path}`,
-    'zh-hant': `${baseUrl}/zh-hant${path}`,
-    'zh-hans': `${baseUrl}/zh-hans${path}`,
-    'x-default': `${baseUrl}/en${path}`,
-  };
-
-  const canonicalUrl = locale === defaultLocale ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
 
   return {
     title: 'Terms of Service - Rike Park Guide',
     alternates: {
-      canonical: canonicalUrl,
-      languages: alternateLanguages,
+      canonical: buildLocalizedUrl(locale, path),
+      languages: buildAlternateLanguages(path),
     },
   };
 }

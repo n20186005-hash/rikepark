@@ -2,11 +2,15 @@ import { MetadataRoute } from 'next';
 import { locales, defaultLocale } from '@/i18n/config';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.piazzapopoloascoli.com';
+  const baseUrl = 'https://www.rikepark.com';
 
   // Core routes
   const routes = [
     '',
+    '/photos',
+    '/blog',
+    '/blog/peace-bridge-experience',
+    '/blog/cable-car-adventure',
     '/privacy-policy',
     '/terms-of-service',
     '/cookie-settings',
